@@ -6,9 +6,12 @@ const app = express()
 
 connectDB()
 
+// Init Middleware
+app.use(express.json({extended: false}))
+
+// Define routes
 app.use('/api/users', require('./routes/users.js'))
 app.use('/api/contacts', require('./routes/contacts'))
 app.use('/api/auth', require('./routes/auth'))
-
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
