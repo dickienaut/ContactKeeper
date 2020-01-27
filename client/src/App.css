@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #003699;
+  --primary-color: #483D8B;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -377,7 +377,7 @@ table th {
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: normal;
   align-items: center;
   padding: 0.7rem 2rem;
   z-index: 1;
