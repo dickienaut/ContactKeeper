@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dickienaut/rfb2.git"
+    "url": "git+https://github.com/dickienaut/ContactKeeper.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dickienaut/rfb2/issues"
+    "url": "https://github.com/dickienaut/ContactKeeper/issues"
   },
-  "homepage": "https://github.com/dickienaut/rfb2#readme",
+  "homepage": "https://github.com/dickienaut/ContactKeeper#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.5",
