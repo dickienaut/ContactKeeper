@@ -1,15 +1,26 @@
 {
-  "name": "rfb20",
+  "name": "rfb2",
   "version": "1.0.0",
-  "description": "An application to organize your contacts",
+  "description": "This is project two from the Udemy course React Front to Back.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js --ignore './client/'",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dickienaut/rfb2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dickienaut/rfb2/issues"
+  },
+  "homepage": "https://github.com/dickienaut/rfb2#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.5",

@@ -8,10 +8,11 @@ const UserSchema = mongoose.Schema({
 
   email: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
 
-  phone: {
+  password: {
     type: String,
     required: true
   },
@@ -21,3 +22,5 @@ const UserSchema = mongoose.Schema({
     default: Date.now
   }
 })
+
+module.exports = mongoose.model('user', UserSchema)
